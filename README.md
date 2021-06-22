@@ -34,30 +34,30 @@ print(shopping_list)
 print(type(shopping_list))
 ```
 
-###Accessing Chocolate
+### Accessing Chocolate
 ```
 print(shopping_list[2])
 ```
 
-###Accessing last item
+### Accessing last item
 ```
 print(shopping_list[-1])
 ```
 
 
-###Replacing an item within the list
+### Replacing an item within the list
 ```
 shopping_list[0] = "mango"
 print(shopping_list)
 ```
 
-###Adding an item to a list
+### Adding an item to a list
 ```
 shopping_list.append("Tuna")
 print(shopping_list)
 ```
 
-###Deleting item from list 
+### Deleting item from list 
 - Remove an item by index and get its value:` pop()`
 - Remove an item by value:` remove()`
 - Remove items by index or slice:` del`
@@ -75,7 +75,7 @@ print(shopping_list)
 mix_list = [1, 2, 3, "one", "two"]
 ```
 
-###Difference between List and Tuples
+### Difference between List and Tuples
 
 
 - The syntax for a tuple is `name_of_tuple = ("", "", "")`
@@ -91,6 +91,6 @@ print(esssentials)
 esssentials.pop(1)
 print(esssentials)
 ```
-#Lists are MUTABLE and tuples are IMMUTABLE
+
 
 
